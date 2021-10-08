@@ -1,5 +1,5 @@
 = Asimmetric Notes
-The helm charts are published through Github Pages at https://asimmetric.github.io/chart-library
+The helm charts are published through Github Pages at https://asimmetric.github.io/cp-helm-charts
 
 = Confluent Platform Helm Charts
 :icons: font
