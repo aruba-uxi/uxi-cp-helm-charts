@@ -51,6 +51,15 @@ entries:
   cp-kafka-connect:
   - apiVersion: v1
     appVersion: "1.0"
+    created: "2022-07-28T12:49:37.201473725Z"
+    description: A Helm chart for Confluent Kafka Connect on Kubernetes
+    digest: 34953885b8d04a9966fca91526cbb747d0cbec384f2707f1c4a4595b58852985
+    name: cp-kafka-connect
+    urls:
+    - https://github.com/aruba-uxi/cp-helm-charts/releases/download/cp-kafka-connect-0.2.3/cp-kafka-connect-0.2.3.tgz
+    version: 0.2.3
+  - apiVersion: v1
+    appVersion: "1.0"
     created: "2022-07-22T06:24:32.318416125Z"
     description: A Helm chart for Confluent Kafka Connect on Kubernetes
     digest: b44e34ae04b8a1f5cb2ff52e0a246185c04463982e1847d2e1db3932b0f9eb9d
@@ -170,4 +179,4 @@ entries:
     urls:
     - https://github.com/Asimmetric/cp-helm-charts/releases/download/cp-zookeeper-0.1.0/cp-zookeeper-0.1.0.tgz
     version: 0.1.0
-generated: "2022-07-22T06:24:32.318451425Z"
+generated: "2022-07-28T12:49:37.201509227Z"
