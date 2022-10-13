@@ -237,6 +237,15 @@ entries:
   cp-kafka-rest:
   - apiVersion: v1
     appVersion: "1.0"
+    created: "2022-10-13T13:58:51.341262376Z"
+    description: A Helm chart for Confluent Kafka REST Proxy on Kubernetes
+    digest: 27fa7b1a9d6b73ada727b685ac0071457a9b948682ead9e197352e635a976994
+    name: cp-kafka-rest
+    urls:
+    - https://github.com/aruba-uxi/cp-helm-charts/releases/download/cp-kafka-rest-0.1.3/cp-kafka-rest-0.1.3.tgz
+    version: 0.1.3
+  - apiVersion: v1
+    appVersion: "1.0"
     created: "2022-08-19T07:23:23.628488099Z"
     description: A Helm chart for Confluent Kafka REST Proxy on Kubernetes
     digest: a7e0ff65cca8296087aef220d47475aad0b5a671b61e217dd3a98f9e4466bb91
@@ -346,4 +355,4 @@ entries:
     urls:
     - https://github.com/Asimmetric/cp-helm-charts/releases/download/cp-zookeeper-0.1.0/cp-zookeeper-0.1.0.tgz
     version: 0.1.0
-generated: "2022-10-11T08:59:33.918108204Z"
+generated: "2022-10-13T13:58:51.341525997Z"
