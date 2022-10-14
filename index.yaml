@@ -74,6 +74,15 @@ entries:
   cp-kafka-connect:
   - apiVersion: v1
     appVersion: "1.0"
+    created: "2022-10-14T09:45:38.585236994Z"
+    description: A Helm chart for Confluent Kafka Connect on Kubernetes
+    digest: 2fee1af9b8334f3b7c76267e9a01236180e84281602ac8f589eb164f8fbdc64c
+    name: cp-kafka-connect
+    urls:
+    - https://github.com/aruba-uxi/cp-helm-charts/releases/download/cp-kafka-connect-0.4.8/cp-kafka-connect-0.4.8.tgz
+    version: 0.4.8
+  - apiVersion: v1
+    appVersion: "1.0"
     created: "2022-10-13T14:53:31.5150156Z"
     description: A Helm chart for Confluent Kafka Connect on Kubernetes
     digest: 7f23b5fb9f13639bbb679ba55b5dabe4c5e5fbca57fddde1c69ac0f8b148540b
@@ -246,6 +255,15 @@ entries:
   cp-kafka-rest:
   - apiVersion: v1
     appVersion: "1.0"
+    created: "2022-10-14T09:45:38.746786206Z"
+    description: A Helm chart for Confluent Kafka REST Proxy on Kubernetes
+    digest: 6cb3ddccf508b3bf48dd09c3fd8dd8076e0a62d328f5385ab7058033720fc908
+    name: cp-kafka-rest
+    urls:
+    - https://github.com/aruba-uxi/cp-helm-charts/releases/download/cp-kafka-rest-0.1.5/cp-kafka-rest-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v1
+    appVersion: "1.0"
     created: "2022-10-13T14:53:31.683806219Z"
     description: A Helm chart for Confluent Kafka REST Proxy on Kubernetes
     digest: 5242222774e5cd994f36e17188e1c01404eb2ce2f48d521f6bbd2f006fe38560
@@ -290,6 +308,15 @@ entries:
     - https://github.com/Asimmetric/cp-helm-charts/releases/download/cp-kafka-rest-0.1.0/cp-kafka-rest-0.1.0.tgz
     version: 0.1.0
   cp-ksql-server:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2022-10-14T09:45:38.917902601Z"
+    description: A Helm chart for Confluent KSQL Server on Kubernetes
+    digest: f6eb68692cdfd8fc55f8c1855b288650dae8338619d2a9c0fc293ef92f5099c7
+    name: cp-ksql-server
+    urls:
+    - https://github.com/aruba-uxi/cp-helm-charts/releases/download/cp-ksql-server-0.1.3/cp-ksql-server-0.1.3.tgz
+    version: 0.1.3
   - apiVersion: v1
     appVersion: "1.0"
     created: "2022-08-19T07:23:23.782666134Z"
@@ -373,4 +400,4 @@ entries:
     urls:
     - https://github.com/Asimmetric/cp-helm-charts/releases/download/cp-zookeeper-0.1.0/cp-zookeeper-0.1.0.tgz
     version: 0.1.0
-generated: "2022-10-13T14:53:31.684209559Z"
+generated: "2022-10-14T09:45:38.9181108Z"
