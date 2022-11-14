@@ -100,4 +100,5 @@ jmx:
     resources: { }
   datadog:
     enabled: true
-    logsEnabled: false
+    logs:
+      enabled: false

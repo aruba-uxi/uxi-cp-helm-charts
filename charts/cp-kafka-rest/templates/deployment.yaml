@@ -42,7 +42,7 @@ spec:
               "max_returned_metrics":999
             }
           ]
-        {{- if .Values.jmx.datadog.logsEnabled }}
+        {{- if .Values.jmx.datadog.logs.enabled }}
         ad.datadoghq.com/{{ template "cp-kafka-rest.fullname" . }}.logs: '[{"source":"confluent_platform","service":"confluent_platform"}]'
         {{- end }}
       {{- end }}
