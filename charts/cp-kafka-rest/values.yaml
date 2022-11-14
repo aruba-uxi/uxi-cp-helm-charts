@@ -82,6 +82,7 @@ jmx:
     resources: { }
   datadog:
     enabled: false
+    logsEnabled: false
 
 
 ## External Access
