@@ -346,6 +346,15 @@ entries:
   cp-ksql-server:
   - apiVersion: v1
     appVersion: "1.0"
+    created: "2023-06-20T12:26:30.035504324Z"
+    description: A Helm chart for Confluent KSQL Server on Kubernetes
+    digest: 0632b5b73eb1bc0067c7aa9b130b2dc29f314392f154bf8650b0b1936d523b4f
+    name: cp-ksql-server
+    urls:
+    - https://github.com/aruba-uxi/cp-helm-charts/releases/download/cp-ksql-server-0.1.8/cp-ksql-server-0.1.8.tgz
+    version: 0.1.8
+  - apiVersion: v1
+    appVersion: "1.0"
     created: "2023-06-20T11:56:28.027683636Z"
     description: A Helm chart for Confluent KSQL Server on Kubernetes
     digest: 3e0396b39a2663d64f7ca14d6ab4fe91332d8fea873f4a6cfb160aaeb14f8b69
@@ -499,4 +508,4 @@ entries:
     urls:
     - https://github.com/Asimmetric/cp-helm-charts/releases/download/cp-zookeeper-0.1.0/cp-zookeeper-0.1.0.tgz
     version: 0.1.0
-generated: "2023-06-20T11:56:28.028189949Z"
+generated: "2023-06-20T12:26:30.035750423Z"
