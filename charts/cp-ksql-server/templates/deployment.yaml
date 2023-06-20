@@ -109,7 +109,7 @@ spec:
           - name: KSQL_LISTENERS
             value: http://0.0.0.0:8088
           - name: KSQL_KSQL_ADVERTISED_LISTENER
-            value: "$(POD_IP):8088"
+            value: "http://$(POD_IP):8088"
           {{- end }}
           {{- range $key, $value := .Values.configurationOverrides }}
           - name: {{ printf "KSQL_%s" $key | replace "." "_" | upper | quote }}
