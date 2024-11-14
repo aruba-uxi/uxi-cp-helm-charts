@@ -7,7 +7,7 @@ replicaCount: 1
 ## Image Info
 ## ref: https://hub.docker.com/r/confluentinc/cp-ksql-server/
 image: confluentinc/cp-ksqldb-server
-imageTag: 7.2.1
+imageTag: 7.7.1
 fullnameOverride: ksqldb
 
 ## Specify a imagePullPolicy
