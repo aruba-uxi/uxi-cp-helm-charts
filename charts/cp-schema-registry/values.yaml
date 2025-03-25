@@ -12,7 +12,7 @@ replicaCount: 1
 ## Image Info
 ## ref: https://hub.docker.com/r/confluentinc/cp-schema-registry/
 image: confluentinc/cp-schema-registry
-imageTag: 7.7.1
+imageTag: 7.9.0
 fullnameOverride: kafka-schema-registry
 
 ## Specify a imagePullPolicy
