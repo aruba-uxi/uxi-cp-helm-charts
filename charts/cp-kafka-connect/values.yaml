@@ -7,7 +7,7 @@ replicaCount: 1
 ## Image Info
 ## ref: https://hub.docker.com/r/confluentinc/cp-kafka/
 image: confluentinc/cp-kafka-connect
-imageTag: 7.7.1
+imageTag: 7.9.0
 fullnameOverride: kafka-connect
 
 ## Specify a imagePullPolicy
