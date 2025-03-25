@@ -3,6 +3,15 @@ entries:
   cp-control-center:
   - apiVersion: v1
     appVersion: "1.0"
+    created: "2025-03-25T10:33:49.822178113Z"
+    description: A Helm chart Confluent Control Center for Kubernetes
+    digest: cd15e1f3f6fa7f915a339cc229d5763d59e92fd95a3c3160403691e3891ea034
+    name: cp-control-center
+    urls:
+    - https://github.com/aruba-uxi/cp-helm-charts/releases/download/cp-control-center-0.1.4/cp-control-center-0.1.4.tgz
+    version: 0.1.4
+  - apiVersion: v1
+    appVersion: "1.0"
     created: "2024-11-15T05:47:15.800863934Z"
     description: A Helm chart Confluent Control Center for Kubernetes
     digest: 5850b562cb1bce353bc4ec25921b67f291a3580074d246ea18e8835e6775f6f2
@@ -38,6 +47,20 @@ entries:
     - https://github.com/Asimmetric/cp-helm-charts/releases/download/cp-control-center-0.1.0/cp-control-center-0.1.0.tgz
     version: 0.1.0
   cp-kafka:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2025-03-25T10:33:49.941549208Z"
+    dependencies:
+    - condition: cp-zookeeper.enabled
+      name: cp-zookeeper
+      repository: file://../cp-zookeeper
+      version: 0.1.0
+    description: A Helm chart for Confluent Kafka on Kubernetes
+    digest: 803b1b911206ed3d3ad51e3f43e3c3448138c06c7dc5cdeb9c28900406cacd0f
+    name: cp-kafka
+    urls:
+    - https://github.com/aruba-uxi/cp-helm-charts/releases/download/cp-kafka-0.1.4/cp-kafka-0.1.4.tgz
+    version: 0.1.4
   - apiVersion: v1
     appVersion: "1.0"
     created: "2024-11-15T05:47:15.909252545Z"
@@ -95,6 +118,15 @@ entries:
     - https://github.com/Asimmetric/cp-helm-charts/releases/download/cp-kafka-0.1.0/cp-kafka-0.1.0.tgz
     version: 0.1.0
   cp-kafka-connect:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2025-03-25T10:33:50.046288155Z"
+    description: A Helm chart for Confluent Kafka Connect on Kubernetes
+    digest: 7019175ccf7d75d256c1614253d71a77de4d33d10163c6b3bb18de4e7cc51e14
+    name: cp-kafka-connect
+    urls:
+    - https://github.com/aruba-uxi/cp-helm-charts/releases/download/cp-kafka-connect-0.4.12/cp-kafka-connect-0.4.12.tgz
+    version: 0.4.12
   - apiVersion: v1
     appVersion: "1.0"
     created: "2024-11-15T05:47:16.018463862Z"
@@ -305,6 +337,15 @@ entries:
   cp-kafka-rest:
   - apiVersion: v1
     appVersion: "1.0"
+    created: "2025-03-25T10:33:50.327443543Z"
+    description: A Helm chart for Confluent Kafka REST Proxy on Kubernetes
+    digest: 91a8e8e57fcd04873874caf8c62e91eb2ea7e8d292e7aa89deaef3226a6dbc4b
+    name: cp-kafka-rest
+    urls:
+    - https://github.com/aruba-uxi/cp-helm-charts/releases/download/cp-kafka-rest-0.1.9/cp-kafka-rest-0.1.9.tgz
+    version: 0.1.9
+  - apiVersion: v1
+    appVersion: "1.0"
     created: "2024-11-15T05:47:16.129529621Z"
     description: A Helm chart for Confluent Kafka REST Proxy on Kubernetes
     digest: dfa0fbd47f2ef9d14432385daea4249c74505c6d08c2e7bd567339b85d4c65c0
@@ -385,6 +426,15 @@ entries:
     - https://github.com/Asimmetric/cp-helm-charts/releases/download/cp-kafka-rest-0.1.0/cp-kafka-rest-0.1.0.tgz
     version: 0.1.0
   cp-ksql-server:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2025-03-25T10:33:50.440922174Z"
+    description: A Helm chart for Confluent KSQL Server on Kubernetes
+    digest: 72ce2938b64508b0a2c7d690b305ade577ea97b6e1978985d925cdd4f9381291
+    name: cp-ksql-server
+    urls:
+    - https://github.com/aruba-uxi/cp-helm-charts/releases/download/cp-ksql-server-0.1.10/cp-ksql-server-0.1.10.tgz
+    version: 0.1.10
   - apiVersion: v1
     appVersion: "1.0"
     created: "2024-11-15T05:47:16.22827024Z"
@@ -478,6 +528,15 @@ entries:
   cp-schema-registry:
   - apiVersion: v1
     appVersion: "1.0"
+    created: "2025-03-25T10:33:50.579550641Z"
+    description: A Helm chart for Confluent Schema Registry on Kubernetes
+    digest: 4094cafae1cba391439ba2d9f02436b8b080cdbe02265d51fa540fdf9188db6d
+    name: cp-schema-registry
+    urls:
+    - https://github.com/aruba-uxi/cp-helm-charts/releases/download/cp-schema-registry-0.1.7/cp-schema-registry-0.1.7.tgz
+    version: 0.1.7
+  - apiVersion: v1
+    appVersion: "1.0"
     created: "2024-11-15T05:47:16.350624407Z"
     description: A Helm chart for Confluent Schema Registry on Kubernetes
     digest: 87a1cb9d23e30b4c145fae8c06111e44fa38d24497c3011f17c01af1f7b17277
@@ -542,6 +601,15 @@ entries:
   cp-zookeeper:
   - apiVersion: v1
     appVersion: "1.0"
+    created: "2025-03-25T10:33:50.688741833Z"
+    description: A Helm chart for Confluent Zookeeper on Kubernetes
+    digest: 49ec8e9cc21a88cb7c391521ebcb7eb1b5c9cc48066895bd56b8987203bfb9da
+    name: cp-zookeeper
+    urls:
+    - https://github.com/aruba-uxi/cp-helm-charts/releases/download/cp-zookeeper-0.1.5/cp-zookeeper-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v1
+    appVersion: "1.0"
     created: "2024-11-15T05:47:16.477424661Z"
     description: A Helm chart for Confluent Zookeeper on Kubernetes
     digest: d37264075c8ead8f48c5e1fc49c3235f7a7d4bf26810bc4de894d766982c83c0
@@ -576,4 +644,4 @@ entries:
     urls:
     - https://github.com/Asimmetric/cp-helm-charts/releases/download/cp-zookeeper-0.1.0/cp-zookeeper-0.1.0.tgz
     version: 0.1.0
-generated: "2024-11-15T05:47:16.47766909Z"
+generated: "2025-03-25T10:33:50.689142512Z"
